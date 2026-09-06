@@ -1,16 +1,16 @@
-# LLM Agent Workflows
+# LLM-агенты: RAG и LangGraph
 
-Two practical LLM agents implemented in a Jupyter notebook:
+Два практических LLM-агента, реализованных в Jupyter Notebook:
 
-- a LangChain RAG study assistant that searches PDF materials with FAISS, explains concepts, remembers the conversation, and generates revision questions;
-- a LangGraph movie recommender that extracts preferences from natural language, builds Kinopoisk API filters, and returns a curated top three.
+- учебный RAG-ассистент на LangChain, который ищет информацию в PDF с помощью FAISS, объясняет сложные понятия, помнит историю диалога и генерирует вопросы для самопроверки;
+- рекомендатель фильмов на LangGraph, который извлекает предпочтения из запроса на естественном языке, формирует фильтры API Кинопоиска и предлагает три наиболее подходящих варианта.
 
-## Stack
+## Технологии
 
-Python, LangChain, LangGraph, FAISS, Sentence Transformers, OpenRouter, and Kinopoisk API.
+Python, LangChain, LangGraph, FAISS, Sentence Transformers, OpenRouter и API Кинопоиска.
 
-## Usage
+## Запуск
 
-Install `requirements.txt`, set the `OPENROUTER_API_KEY` and `KINOPOISK_API_KEY` environment variables, and open `llm_agent_workflows.ipynb`.
+Установите зависимости из `requirements.txt`, задайте переменные окружения `OPENROUTER_API_KEY` и `KINOPOISK_API_KEY`, затем откройте `llm_agent_workflows.ipynb`.
 
-The RAG example expects a local PDF with study materials. The course document used during development is intentionally not included.
+Для работы RAG-ассистента потребуется собственный PDF с учебными материалами. Использованный при разработке документ намеренно не добавлен в репозиторий.
